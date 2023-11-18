@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <div class="logoNom">
+            <a href="index.html"><img src="PicsArt_01-25-11.30.01.png" alt=""></a>
+             <h1>Josue Mansanga</h1>
+        </div>
+        <nav class="navigation">
+            <a href="cv.html" >CV</a>
+            <a href="projetsRealises.html">Projets</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+        <nav class="menu" id="menu" >
+            ≡
+        </nav>
+    </header>
+    <nav class="navigationX">
+        <a href="cv.html" >CV</a>
+        <a href="projetsRealises.html">Projets</a>
+        <a href="contacts.html">Contacts</a>
+    </nav>
+    <section >
+        <h1 id="h1">Contacts</h1>
+        <div class="formAndImage">
+        <div class="form">
+            <form action="https://docs.google.com/spreadsheets/d/1gAzFKpk4adxxtK3aovxvChLjdCLXG5ZXWva9A7-1KIg/edit?pli=1#gid=0" method="get">
+                <h1>Cliquer pour entrer en contact avec nous </h1>
+                <input type="submit" id="submit" value="Cliquer ici">
+            </form>
+        </div> 
+        <div class="image">
+            <img src="contactUser.png" alt="" width="200px">
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div  class="tel">
+          <h1>Téléphone</h1>
+          <p>+243 813 297 476 <br>+243 840 292 978</p>
+        </div>
+            <div class="mail">
+                 <h1>Mon adresse mail</h1>
+                 <p><a href="mailto:mansangajosue@gmail.com">mansangajosue@gmail.com</a></p>
+            </div>
+                <div class="follow">
+                 <h1>Suivez-nous sur</h1>
+                    <nav style="margin-left: 10px;">
+                        <a href="" style="font-size: 25px;color: #083bba;"><ion-icon name="logo-facebook"></ion-icon></a>
+                         <a href=""  style="font-size: 25px;color: #0092c7;"><ion-icon name="logo-twitter"></ion-icon></a>
+                         <a href=""  style="font-size: 25px;color: #083bba;"><ion-icon name="logo-linkedin"></ion-icon></a>
+                     </nav>
+                </div>
+                     <div class="politique">
+                        <h2>Politique de confidentialité</h2>
+                        <p>Tout droit réservé</p>
+                     </div>
+                      <div class="copyright">
+                        <h3>©copyright 2023 par <br> <i>Josue Mansanga</i></h3>
+                     </div>
+    </footer >
+    <script>
+        const navigation = document.querySelector('.navigationX')
+     const menu =document.getElementById('menu')
+     menu.addEventListener('click',function(){
+        navigation.classList.toggle('open')
+    })
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
